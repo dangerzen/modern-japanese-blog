@@ -10,10 +10,9 @@ BLOG_TITLE = 'My Minimal Blog'
 BLOG_DESCRIPTION = 'Saving bytes one blog at a time.'
 
 POSTS_INPUT_DIR = 'posts/'
-POSTS_OUTPUT_DIR = 'public/blog/'
-
+POSTS_OUTPUT_DIR = 'docs/'
 ASSETS_INPUT_DIR = 'assets/'
-ASSETS_OUTPUT_DIR = 'public/blog/assets/'
+ASSETS_OUTPUT_DIR = 'docs/assets/'
 
 HOME_PAGE_TEMPLATE = '''
 <!doctype html>
