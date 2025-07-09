@@ -1,0 +1,307 @@
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Saving bytes one blog at a time.">
+    <meta name="author" content="Modern Japanese Blog">
+    <meta name="theme-color" content="#F9F9F9">
+    <title>My Minimal Blog</title>
+    <link rel="stylesheet" type="text/css" href="assets/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD///8A////AP///wD///8A////AJzn/2A+z///O8z//zfJ//80xv//nuL/L////wD///8A////AP///wD///8A////AP///wD///8A////AEnY//9F1f//QtL//z/P//87zP//Pcr///b8//8xw//7////AP///wD///8A////AP///wD///8A////AP///wBN3P//Sdn//0bV//9C0v//P8///0vQ///7/v//NMb//////wD///8A////AP///wD///8A////AP///wD///8AUN///03c//9J2f//Rtb//0PT//8/0P//PM3//zjJ//////8A////AP///wD///8A////AJ9wN/6cbjb/mWw2/1Ti//9R3///Tdz//0rZ//9G1v//Q9P//z/Q//88zf//OMr//zXH//8xw//+////AKZzN6ajcjf/oHA3/51uNv9Y5v//VOP//1Hg//9O3f//Str//0fW//9D0///QND//zzN//85yv//Ncf///X8/wSpdTf/pnM3/6NyN/+gcDf/XOn//1jm//9V4///UeD//07d//9K2v//R9f//0PT//9A0P//PM3//znK//82x///rHc3/6l1N/+mdDf/o3I3/////wBc6f//WOb//1Xj//9S4P//Tt3//0va//9H1///RNT//0DR//89zf//Ocv//7B5N/+tdzf/qnY3/6d0N/+kcjf/oHA3/51uNv+bbTb/l2s2/5RpNv+UaTb/m+r/ZEfX//9E1P//QdH//z3O//+zezf/sHk3/613N/+qdjf/p3Q3/6RyN/+hcDf/nm82/5ttNv+Yazb/lGk2/5RpNv9L2v//R9f//0TU//9B0f//tn045LN7N/+weTf/rXg3/6p2N/+ndDf/pHI3/6FxN/+ebzb/m202/5hrNv+VaTb/T97//0vb//9I1///ZNv/df///wC3fTj+tHs3/7B6N/+teDf/qnY3/6d0N/+kczf/oXE3/55vNv+bbTb/mGs2/1Ph//9P3v//TNv//////wD///8A////AP///wD///8AsXo37654N++rdjfvqHQ376VzN/+hcTf/nm82/5ttNv////8A////AP///wD///8A////AP///wD///8A////ALR8N//v5Nb/rng3/6t2N/+odTf/pXM3/6JxN/+fbzf/////AP///wD///8A////AP///wD///8A////AP///wC3fjj//////7R/Pv+ueDf/q3c3/6h1N/+lczf/onE3/////wD///8A////AP///wD///8A////AP///wD///8A////ALh+OP+1fDj/sno3/694N/+sdzf/qXU3/////wD///8A////AP///wD///8A/D8AAPAPAADwDwAA8A8AAIABAAAAAQAAAAAAAAgAAAAAEAAAAAAAAAABAACAAQAA8A8AAPAPAADwDwAA+B8AAA==" rel="icon" type="image/x-icon" />
+  </head>
+  <body class="antialiased">
+    <!-- 暗色模式切换按钮 -->
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换暗色模式">
+      <span class="theme-icon">🌙</span>
+    </button>
+    
+    <!-- 主容器 -->
+    <div class="blog-container">
+      <!-- 博客头部 -->
+      <header class="blog-header">
+        <h1 class="blog-title">My Minimal Blog</h1>
+        <p class="blog-description">Saving bytes one blog at a time.</p>
+      </header>
+      
+      <!-- 文章列表 -->
+      <main class="posts-grid">
+        <h2 class="section-title">最新文章</h2>
+        <ul class="posts-list">
+          
+        <li>
+          <article class="blog-card">
+            <header class="card-header">
+              <h3 class="post-title">
+                <a href="2025-07-09-welcome-to-my-blog">欢迎来到我的博客</a>
+              </h3>
+              <div class="post-meta">
+                <time class="post-date" datetime="2025-07-09">2025-07-09</time>
+                <span class="reading-time">• 3 分钟阅读</span>
+              </div>
+            </header>
+            
+            <div class="card-content">
+              <p class="post-excerpt">欢迎来到我的博客
+这是我使用 minimal-static-blog-generator 创建的第一篇博客文章！
+关于这个博客系统
+这个博客系统有以下特点：
+
+🚀 极其轻量 - 整个网站只有2KB大小
+📝 Markdown支持 - 使用Markdown编写文章
+🎯 零配置 - 开箱即用
+📱 响应式 ...</p>
+              <a href="2025-07-09-welcome-to-my-blog" class="read-more">
+                <span>阅读更多</span>
+              </a>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="blog-card">
+            <header class="card-header">
+              <h3 class="post-title">
+                <a href="2020-03-22-inconvenient-hobbies">Inconvenient Hobbies</a>
+              </h3>
+              <div class="post-meta">
+                <time class="post-date" datetime="2020-03-22">2020-03-22</time>
+                <span class="reading-time">• 3 分钟阅读</span>
+              </div>
+            </header>
+            
+            <div class="card-content">
+              <p class="post-excerpt">Inconvenient Hobbies
+
+We fight convenience by calling it our hobbies.
+</p>
+              <a href="2020-03-22-inconvenient-hobbies" class="read-more">
+                <span>阅读更多</span>
+              </a>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="blog-card">
+            <header class="card-header">
+              <h3 class="post-title">
+                <a href="2025-07-09-markdown-guide">Markdown语法指南</a>
+              </h3>
+              <div class="post-meta">
+                <time class="post-date" datetime="2025-07-09">2025-07-09</time>
+                <span class="reading-time">• 3 分钟阅读</span>
+              </div>
+            </header>
+            
+            <div class="card-content">
+              <p class="post-excerpt">Markdown语法指南
+这里是常用的Markdown语法示例。
+标题
+```markdown
+一级标题
+二级标题
+三级标题
+```
+文本格式
+
+粗体文本
+斜体文本
+~~删除线~~
+行内代码
+
+列表
+无序列表
+
+项目1
+项目2
+子项目2.1
+子项目2.2
+
+有序列表
+
+第一项
+第二项
+第三项
+
+链接...</p>
+              <a href="2025-07-09-markdown-guide" class="read-more">
+                <span>阅读更多</span>
+              </a>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="blog-card">
+            <header class="card-header">
+              <h3 class="post-title">
+                <a href="here-is-a-slug-that-doesnt-match-the-title">Example Post 2</a>
+              </h3>
+              <div class="post-meta">
+                <time class="post-date" datetime="2020-01-01">2020-01-01</time>
+                <span class="reading-time">• 3 分钟阅读</span>
+              </div>
+            </header>
+            
+            <div class="card-content">
+              <p class="post-excerpt">Example Post 2
+Here's a small description
+Second header
+Let's see how code looks:
+&lt;div&gt;
+  &lt;h1&gt;Hello, World 2!&lt;/h1&gt;
+&lt;/div&gt;
+</p>
+              <a href="here-is-a-slug-that-doesnt-match-the-title" class="read-more">
+                <span>阅读更多</span>
+              </a>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="blog-card">
+            <header class="card-header">
+              <h3 class="post-title">
+                <a href="intuitive-code">Intuitive Code</a>
+              </h3>
+              <div class="post-meta">
+                <time class="post-date" datetime="2020-03-01">2020-03-01</time>
+                <span class="reading-time">• 3 分钟阅读</span>
+              </div>
+            </header>
+            
+            <div class="card-content">
+              <p class="post-excerpt">Intuitive Code
+A test for intuitiveness: Ask a non-programmer what some code does.</p>
+              <a href="intuitive-code" class="read-more">
+                <span>阅读更多</span>
+              </a>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="blog-card">
+            <header class="card-header">
+              <h3 class="post-title">
+                <a href="how-to-shower">How to take a shower</a>
+              </h3>
+              <div class="post-meta">
+                <time class="post-date" datetime="2020-02-01">2020-02-01</time>
+                <span class="reading-time">• 3 分钟阅读</span>
+              </div>
+            </header>
+            
+            <div class="card-content">
+              <p class="post-excerpt">How to take a shower
+In three steps:
+
+Get wet
+Get soaped
+Get rinsed
+
+Ideally, it will take just three minutes for the simple process to wet, soap, and...</p>
+              <a href="how-to-shower" class="read-more">
+                <span>阅读更多</span>
+              </a>
+            </div>
+          </article>
+        </li>
+        <li>
+          <article class="blog-card">
+            <header class="card-header">
+              <h3 class="post-title">
+                <a href="2020-03-21-how-to-get-started-with-svelte-and-parcel">How to get started with Svelte and Parcel</a>
+              </h3>
+              <div class="post-meta">
+                <time class="post-date" datetime="2020-03-21">2020-03-21</time>
+                <span class="reading-time">• 3 分钟阅读</span>
+              </div>
+            </header>
+            
+            <div class="card-content">
+              <p class="post-excerpt">Assuming that you already have npm installed, then creating and publishing a new website is really easy and fast.
+Here's the minimal steps needed to g...</p>
+              <a href="2020-03-21-how-to-get-started-with-svelte-and-parcel" class="read-more">
+                <span>阅读更多</span>
+              </a>
+            </div>
+          </article>
+        </li>
+        </ul>
+      </main>
+    </div>
+    
+    <!-- JavaScript -->
+    <script>
+      // 暗色模式切换
+      function toggleTheme() {
+        const html = document.documentElement;
+        const icon = document.querySelector('.theme-icon');
+        
+        if (html.classList.contains('dark')) {
+          html.classList.remove('dark');
+          icon.textContent = '🌙';
+          localStorage.setItem('theme', 'light');
+        } else {
+          html.classList.add('dark');
+          icon.textContent = '☀️';
+          localStorage.setItem('theme', 'dark');
+        }
+      }
+      
+      // 初始化主题
+      function initTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const icon = document.querySelector('.theme-icon');
+        
+        if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+          document.documentElement.classList.add('dark');
+          icon.textContent = '☀️';
+        } else {
+          icon.textContent = '🌙';
+        }
+      }
+      
+      // 页面加载完成后初始化
+      document.addEventListener('DOMContentLoaded', initTheme);
+      
+      // 监听系统主题变化
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        if (!localStorage.getItem('theme')) {
+          const icon = document.querySelector('.theme-icon');
+          if (e.matches) {
+            document.documentElement.classList.add('dark');
+            icon.textContent = '☀️';
+          } else {
+            document.documentElement.classList.remove('dark');
+            icon.textContent = '🌙';
+          }
+        }
+      });
+      
+      // 添加平滑滚动和动画
+      document.addEventListener('DOMContentLoaded', function() {
+        // 为所有卡片添加进入动画
+        const cards = document.querySelectorAll('.blog-card');
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.style.opacity = '1';
+              entry.target.style.transform = 'translateY(0)';
+            }
+          });
+        }, { threshold: 0.1 });
+        
+        cards.forEach((card, index) => {
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(20px)';
+          card.style.transition = `opacity 0.6s ease-out ${index * 0.1}s, transform 0.6s ease-out ${index * 0.1}s`;
+          observer.observe(card);
+        });
+      });
+    </script>
+  </body>
+</html>

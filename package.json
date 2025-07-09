@@ -1,0 +1,21 @@
+{
+  "name": "modern-japanese-blog",
+  "version": "1.0.0",
+  "description": "现代日式融合静态博客生成器",
+  "main": "generate_static_blog.py",
+  "scripts": {
+    "build-css": "tailwindcss -i ./assets/styles.css -o ./assets/blog.css --watch",
+    "build-css-prod": "tailwindcss -i ./assets/styles.css -o ./assets/blog.css --minify",
+    "dev": "concurrently \"npm run build-css\" \"python3 -m http.server 8000 --directory public/blog\"",
+    "build": "python3 generate_static_blog.py && npm run build-css-prod"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["blog", "static-site-generator", "japanese-design", "minimal"],
+  "author": "Modern Japanese Blog Generator",
+  "license": "MIT"
+}
